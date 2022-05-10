@@ -38,7 +38,7 @@ public class GameController : MonoBehaviour
     private void RefreshScoreUI()
     {
         score.text = "Score : " + GameManager.instance.score;
-        maxScore.text = "Score : " + GameManager.instance.maxScore;
+        maxScore.text = "Max Score : " + GameManager.instance.maxScore;
     }
 
     public void SetWin()
